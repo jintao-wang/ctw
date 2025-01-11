@@ -14,8 +14,20 @@
   }
 }
 
+@layer base {
+  a {
+    @apply no-underline;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+[contenteditable="true"] {
+  outline: none;
+}
+
+

@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+       <script async src="https://gosspublic.alicdn.com/aliyun-oss-sdk-6.18.0.min.js" data-manual />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
