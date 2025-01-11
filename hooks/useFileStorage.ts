@@ -32,7 +32,7 @@ export default function useFileStorage(defaultId?: string) {
                 }
             }
         },
-            3000,
+            10000,
             {
                 leading: false,  // 禁止首次立即执行
                 trailing: true,  // 允许在间隔结束时执行
